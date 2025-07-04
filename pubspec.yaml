@@ -1,0 +1,24 @@
+name: drug_scanner_app
+description: A Flutter app to scan drug barcodes and fetch information.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_barcode_scanner: ^2.0.0
+  http: ^0.13.5
+  html: ^0.15.0
+  path_provider: ^2.0.11
+  cupertino_icons: ^1.0.2
+  shared_preferences: ^2.0.15
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
